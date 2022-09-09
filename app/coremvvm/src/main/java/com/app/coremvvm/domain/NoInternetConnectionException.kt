@@ -1,5 +1,3 @@
 package com.app.coremvvm.domain
 
-class NoInternetConnectionException: Exception(){
-
-}
+class NoInternetConnectionException: Exception()
