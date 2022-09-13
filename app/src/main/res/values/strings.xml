@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">CoreMVVM</string>
+
+    <string name="connection_error">connection error</string>
+    <string name="error_1">error 1</string>
+    <string name="error_2">error 2</string>
 </resources>
