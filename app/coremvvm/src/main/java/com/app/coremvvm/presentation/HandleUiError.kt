@@ -1,5 +1,6 @@
 package com.app.coremvvm.presentation
 
+import android.content.Intent
 import androidx.annotation.StringRes
 import com.app.coremvvm.R
 import com.app.coremvvm.core.ManageResources
@@ -20,6 +21,7 @@ abstract class HandleUiErrorAbstract(
     protected open val serviceUnavailableExceptionMessage: Int = R.string.error_1
 
     override fun handle(error: Exception): Exception {
+        Intent
         val messageId = when (error) {
             is NoInternetConnectionException -> noConnectionExceptionMessage
             is ServiceUnavailableException -> serviceUnavailableExceptionMessage
