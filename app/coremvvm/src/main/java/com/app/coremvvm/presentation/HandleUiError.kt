@@ -21,7 +21,7 @@ abstract class HandleUiErrorAbstract(
     protected open val serviceUnavailableExceptionMessage: Int = R.string.error_1
 
     override fun handle(error: Exception): Exception {
-        Intent
+
         val messageId = when (error) {
             is NoInternetConnectionException -> noConnectionExceptionMessage
             is ServiceUnavailableException -> serviceUnavailableExceptionMessage

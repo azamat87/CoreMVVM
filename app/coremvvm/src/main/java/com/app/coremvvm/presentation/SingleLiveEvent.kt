@@ -1,4 +1,4 @@
-package com.app.coremvvm
+package com.app.coremvvm.presentation
 
 import androidx.annotation.MainThread
 import androidx.lifecycle.LifecycleOwner

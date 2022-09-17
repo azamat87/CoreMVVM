@@ -3,7 +3,6 @@ package com.app.coremvvm.presentation
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
-import com.app.coremvvm.SingleLiveEvent
 import com.app.coremvvm.core.Mapper
 
 class Communication {
