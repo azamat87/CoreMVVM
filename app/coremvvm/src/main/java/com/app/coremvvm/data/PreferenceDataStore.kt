@@ -14,6 +14,7 @@ interface PreferenceDataStore {
             sharedPreferences.edit().putStringSet(key, data).apply()
         }
 
+
         override fun read(key: String): Set<String> =
              sharedPreferences.getStringSet(key, emptySet()) ?: emptySet()
     }
